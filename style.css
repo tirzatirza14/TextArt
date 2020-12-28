@@ -1,0 +1,43 @@
+:root {
+
+	--padding-size: 2em;
+}
+body {
+	margin:0;
+	background: #fffff7;
+}
+
+.textHeader {
+	margin-top: 0;
+	padding: 0 var(--padding-size) 1em var(--padding-size);
+	background: #faef78;
+	position: sticky;
+	top: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.information {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	
+
+}
+.textHeader h1 {
+	font-size: var(--padding-size);
+	margin-bottom: 0;
+	display: inline-block;
+}
+
+.textHeader p{
+	font-size: 1em;
+	color: blue;
+	margin:0;
+	padding:0;
+}
+
+.item {
+	margin-left: var(--padding-size);
+	margin-bottom: calc(var(--padding-size)*2);
+}
